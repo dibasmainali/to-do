@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* responsive text  in mobile screen*/
+
+@media screen and (max-width: 640px) {
+  * {
+     font-size: 12px;
+  }
+}
